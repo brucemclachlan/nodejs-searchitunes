@@ -17,10 +17,13 @@
   "main": "searchitunes.js",
   "dependencies": {
     "es6-promisify": "^6.0.0",
-    "httpreq": "^0.4.24"
+    "express": "^4.17.1",
+    "httpreq": "^0.4.24",
+    "mongoose": "^5.9.10"
   },
   "devDependencies": {
-    "dotest": "^2.6.1"
+    "dotest": "^2.6.1",
+    "nodemon": "^2.0.3"
   },
   "engines": {
     "node": ">=10.0.0"
